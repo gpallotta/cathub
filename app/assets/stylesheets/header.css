@@ -1,0 +1,32 @@
+.cathub {
+  margin-left: 55px;
+  font-size: 23px;
+  float: left;
+  letter-spacing: -1px;
+  color: #333333;
+}
+
+.navigation-container {
+  display: inline-block;
+  border-bottom: 1px solid #E5E5E5;
+  width: 100%;
+  height: 54px;
+}
+
+.nav-list {
+  list-style: none;
+  float: right;
+  margin-right: 55px;
+  margin-top: 12px;
+}
+
+.nav-list > li {
+  display: inline;
+  color: #4D4D4D;
+  font-size: 12px;
+  margin: 0 10px;
+}
+
+.sign-in-button {
+  padding: 7px;
+}
