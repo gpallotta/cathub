@@ -22,10 +22,11 @@
   margin-left: 8px;
   font-size: 22px;
   line-height: 18px;
+  color: #3C3C3C;
 }
 
-.cathub:visited {
-  color: inherit; /* so CatHub link isn't purple */
+.cathub:hover {
+  color: #4183c4;
 }
 
 .nav-list {
