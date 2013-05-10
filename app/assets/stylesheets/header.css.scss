@@ -22,10 +22,9 @@
   font-size: 22px;
   line-height: 18px;
   color: #3C3C3C;
-}
-
-.cathub:hover {
-  color: #4183c4;
+  &:hover {
+    color: #4183c4;
+  }
 }
 
 .nav-list {
@@ -34,16 +33,14 @@
   float: right;
   margin-top: 10px;
   margin-right: 20px;
+  li {
+    display: inline;
+    color: #4D4D4D;
+    font-size: 12px;
+    margin: -1px 7px 0;
+    font-weight: 600;
+  }
 }
-
-.nav-list > li {
-  display: inline;
-  color: #4D4D4D;
-  font-size: 12px;
-  margin: -1px 7px 0;
-  font-weight: 600;
-}
-
 
 .sign-in-button {
   font-size: 12px;
