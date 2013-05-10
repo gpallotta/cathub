@@ -1,0 +1,27 @@
+.footer-section-list {
+  border-top: 1px solid #F2F2F2;
+  border-bottom: 1px solid #F2F2F2;
+  > li {
+    display: inline;
+    margin: 0 5px;
+  }
+}
+
+
+.footer-link-list {
+  display: inline-block;
+  padding: 0 55px 0 0;
+  li {
+    font-size: 8px;
+    &:not(:first-child) {
+      color: #4383C4;
+      margin-top: 3px;
+    }
+    &:first-child {
+      color: #52595D;
+      font-size: 10px;
+      font-weight: 700;
+    }
+  }
+}
+
