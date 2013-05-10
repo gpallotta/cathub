@@ -7,20 +7,30 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <div class="navigation-container">
 
-    <h1 class="cathub">CatHub</h1>
+  <div class="wrapper">
+    <div class="navigation-container">
 
-    <ul class="nav-list">
-        <li>Explore CatHub</li>
-        <li>Search</li>
-        <li>Features</li>
-        <li>Blog</li>
-      <button class="sign-in-button">Sign in</button>
-    </ul>
+      <div class="nav-wrapper">
+
+        <a class="cathub" href='#'>CatHub</a>
+
+        <div class="signin-button-wrapper">
+          <button class="sign-in-button">Sign in</button>
+        </div>
+
+        <ul class="nav-list">
+          <li>Explore CatHub</li>
+          <li>Search</li>
+          <li>Features</li>
+          <li>Blog</li>
+        </ul>
+
+      </div>
+    </div>
+
+    <%= yield %>
+
   </div>
-
-<%= yield %>
-
 </body>
 </html>

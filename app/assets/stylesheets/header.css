@@ -1,32 +1,39 @@
-.cathub {
-  margin-left: 55px;
-  font-size: 23px;
-  float: left;
-  letter-spacing: -1px;
-  color: #333333;
+.wrapper {
+  margin: 0 auto;
 }
 
 .navigation-container {
-  display: inline-block;
-  border-bottom: 1px solid #E5E5E5;
-  width: 100%;
-  height: 54px;
+  border: 1px solid #E5E5E5;
+  padding: 10px 0;
+}
+
+.nav-wrapper {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.cathub {
+  display: inline;
+  text-decoration: none;
+}
+
+.cathub:visited {
+  color: inherit; # so CatHub link isn't purple
 }
 
 .nav-list {
   list-style: none;
-  float: right;
-  margin-right: 55px;
-  margin-top: 12px;
 }
 
 .nav-list > li {
   display: inline;
   color: #4D4D4D;
   font-size: 12px;
-  margin: 0 10px;
+  float: right;
 }
 
-.sign-in-button {
+.signin-button-wrapper {
+  float: right;
   padding: 7px;
 }
