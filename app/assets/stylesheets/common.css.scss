@@ -1,6 +1,13 @@
-body {
+@mixin helvetica-neue {
+  font-family: "Helvetica Neue", helvetica;
+}
+
+@mixin helvetica {
   font-family: helvetica;
-  height: 100%;
+}
+
+body {
+  @include helvetica-neue;
   min-width: 960px;
   margin: 0;
 }
@@ -14,6 +21,6 @@ ul {
 }
 
 .container {
-  width: 760px;
+  width: 920px;
   margin: 0 auto;
 }

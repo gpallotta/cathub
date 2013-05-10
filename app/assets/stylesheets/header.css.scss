@@ -1,3 +1,7 @@
+@mixin helvetica {
+  font-family: helvetica;
+}
+
 .wrapper {
   margin: 0 auto;
 }
@@ -5,23 +9,34 @@
 .navigation-container {
   border: 1px solid #E5E5E5;
   padding: 10px 0;
-  height: 35px;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+
 }
 
 .nav-wrapper {
   margin: 0 auto;
   padding: 0;
+  display: block;
 }
 
 .cathub {
+  @include helvetica;
+  width: 94px;
+  height: 30px;
   display: inline;
   float: left;
-  font-weight: 600;
-  margin-top: 7px;
-  margin-left: 8px;
-  font-size: 22px;
+  margin: 12px 5px 9px 0;
+  font-size: 28px;
+  font-weight: 900;
   line-height: 18px;
-  color: #3C3C3C;
+  color: #333333;
   &:hover {
     color: #4183c4;
   }
@@ -30,14 +45,16 @@
 .nav-list {
   display: block;
   float: right;
-  margin-top: 10px;
-  margin-right: 20px;
+  margin-top: 15px;
+  margin-right: 10px;
   li {
+    @include helvetica;
     display: inline;
-    color: #4D4D4D;
-    font-size: 12px;
-    margin: -1px 7px 0;
-    font-weight: 600;
+    padding: 5px;
+    color: #333333;
+    font-size: 14px;
+    margin-left: 15px;
+    font-weight: bold;
   }
   a:visited {
     color: inherit;
@@ -45,13 +62,23 @@
 }
 
 .sign-in-button {
-  font-size: 12px;
-  padding: 8px;
-  margin-top: -4px;
-  margin-right: 5px;
+  margin-left: 5px;
+  margin-right: -10px;
+  padding-left: 12px;
+  padding-right: 12px;
+  box-shadow: 0 1px 0 #fff;
+  position: relative;
+  display: inline-block;
+  padding: 7px 15px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #333;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.9);
+  white-space: nowrap;
   border-radius: 3px;
-  border: 1px solid #999999;
-  background-color: #ECECEC;
+  border: 1px solid #ddd;
+  border-bottom-color: #c5c5c5;
+  background-color: #eaeaea;
 }
 
 .signin-button-wrapper {
