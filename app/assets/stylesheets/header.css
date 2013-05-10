@@ -5,10 +5,10 @@
 .navigation-container {
   border: 1px solid #E5E5E5;
   padding: 10px 0;
+  height: 35px;
 }
 
 .nav-wrapper {
-  display: block;
   margin: 0 auto;
   padding: 0;
 }
@@ -16,21 +16,43 @@
 .cathub {
   display: inline;
   text-decoration: none;
+  float: left;
+  font-weight: 600;
+  margin-top: 7px;
+  margin-left: 8px;
+  font-size: 22px;
+  line-height: 18px;
 }
 
 .cathub:visited {
-  color: inherit; # so CatHub link isn't purple
+  color: inherit; /* so CatHub link isn't purple */
 }
 
 .nav-list {
   list-style: none;
+  display: block;
+  float: right;
+  margin-top: 10px;
+  margin-right: 20px;
 }
 
 .nav-list > li {
   display: inline;
   color: #4D4D4D;
   font-size: 12px;
-  float: right;
+  margin: -1px 7px 0;
+  font-weight: 600;
+}
+
+
+.sign-in-button {
+  font-size: 12px;
+  padding: 8px;
+  margin-top: -4px;
+  margin-right: 5px;
+  border-radius: 3px;
+  border: 1px solid #999999;
+  background-color: #ECECEC;
 }
 
 .signin-button-wrapper {

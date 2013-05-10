@@ -4,3 +4,8 @@ body {
   min-width: 960px;
   margin: 0;
 }
+
+.container {
+  width: 760px;
+  margin: 0 auto;
+}
