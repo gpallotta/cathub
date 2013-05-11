@@ -1,5 +1,5 @@
 class HomesController < ApplicationController
-  layout 'authenticated'
+  layout 'authorized'
 
   def show
   end
