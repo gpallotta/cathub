@@ -1,0 +1,109 @@
+.context-box {
+  background-color: #EEEEEE;
+  border-radius: 3px;
+  padding: 5px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.rss-feed {
+  border: 1px solid #EEEEEE;
+  float: right;
+  width: 80px;
+  margin-top: 20px;
+  margin-right: 10px;
+  padding: 3px;
+}
+
+.button-links {
+  ul {
+    margin-top: 10px;
+    margin-left: 30px;
+    li {
+      color: #777;
+      font-size: 12px;
+      font-weight: bold;
+      background-color: #EFEFEF;
+      border-bottom: 2px solid #CFDCE8;
+      display: inline-block;
+      width: 210px;
+      text-align: center;
+      padding: 9px;
+      margin: 0;
+      .active-button {
+        border-bottom: orange;
+      }
+      .inner-button {
+        margin-right: -2px;
+      }
+    }
+  }
+}
+
+.news-feed {
+  margin-left: 15px;
+  margin-bottom: 50px;
+  .news-feed-list {
+    li {
+      font-size: 13px;
+      color: #666666;
+      padding: 10px;
+      border-bottom: 1px solid #F1F1F1;
+    }
+  }
+}
+
+.repositories {
+  margin: 5px 30px;
+  overflow: auto;
+  border: 1px solid #DDDDDD;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-right: 5px;
+  .repository-header {
+    background-color: #EFEFEF;
+    .pet-count {
+      display: inline-block;
+      margin-top: 8px;
+      margin-left: 10px;
+      font-size: 14px;
+      color: #52595d;
+      font-weight: bold;
+      text-align: center;
+    }
+    .repository-button {
+      margin: 4px;
+      float: right;
+    }
+  }
+  .repository-subheader {
+    padding: 10px;
+    input {
+      width: 280px;
+      border-radius: 15px;
+    }
+    span {
+      font-size: 11px;
+      font-weight: bold;
+    }
+    ul  {
+      float: right;
+      font-size: 11px;
+      display: inline-block;
+      li {
+        margin: 0 3px;
+        color: #777;
+        display: inline-block;
+      }
+    }
+  }
+  .repository-list {
+    margin: 0;
+    li {
+      padding: 3px;
+      padding-left: 20px;
+      border: 1px solid #eee;
+      color: #4183c4;
+    }
+  }
+}

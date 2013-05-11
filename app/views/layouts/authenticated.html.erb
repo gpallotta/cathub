@@ -8,44 +8,47 @@
 </head>
 <body>
 
-  <div class="wrapper">
+  <div class="auth-header">
+    <div class="container">
+      <div class="row">
+        <div class="span8">
+          <div class="logo-container">
+            <img src="http://www.clker.com/cliparts/2/i/V/5/E/m/cat-outline-th.png" class="auth-logo" alt="logo" />
+          </div>
 
-    <div class="auth-navigation-container">
+          <div class="notification-container">
+            <div class="notification-dot"></div>
+          </div>
 
-      <div class="container clearfix">
-
-        <div class="logo-container">
-          <img src="http://www.clker.com/cliparts/2/i/V/5/E/m/cat-outline-th.png" class="auth-logo" alt="logo" />
+          <div class="searchbar-links">
+            <div class="search-form">
+              <input class="search-input" type="text" placeholder="Search or type a command"/>
+            </div>
+            <ul class="auth-nav-list">
+              <li><a href='#'>Explore</a></li>
+              <li><a href='#'>Features</a></li>
+              <li><a href='#'>Blog</a></li>
+              <li><a href='#'>Help</a></li>
+            </ul>
+          </div>
         </div>
 
-        <div class="notification-container">
-          <span class="notification-dot">.</span>
+        <div class="span4">
+            <ul class="right-links-list">
+              <li>
+                <img src="http://www.nndb.com/people/453/000025378/bsaget2-sm.jpg" class="bob-saget" alt="Bob Saget" />
+              </li>
+              <li>Username</li>
+              <li>R</li>
+              <li>S</li>
+              <li>SO</li>
+            </ul>
         </div>
-
-        <div class="searchbar-links">
-          <input class="search-input" type="text" placeholder="Search or type a command"/>
-          <ul class="auth-nav-list">
-            <li><a href='#'>Explore</a></li>
-            <li><a href='#'>Features</a></li>
-            <li><a href='#'>Blog</a></li>
-            <li><a href='#'>Help</a></li>
-          </ul>
-
-        </div>
-
-        <div class="right-links-container">
-          <!-- user image goes here -->
-          <span>Username</span>
-          <!-- image goes here -->
-          <!-- image goes here -->
-          <!-- image goes here -->
-        </div>
-
       </div>
-      <%= yield %>
-
     </div>
-
   </div>
+
+    <%= yield %>
+
 </body>
 </html>

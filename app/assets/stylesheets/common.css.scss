@@ -8,8 +8,6 @@
 
 body {
   @include helvetica-neue;
-  min-width: 960px;
-  margin: 0;
 }
 
 a {
@@ -18,11 +16,6 @@ a {
 
 ul {
   list-style: none;
-}
-
-.container {
-  width: 920px;
-  margin: 0 auto;
 }
 
 .outer-left {

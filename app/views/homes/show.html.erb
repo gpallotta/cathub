@@ -1,34 +1,82 @@
-<div class="username-news-container">
-  <div class="contextx-box">
+<div class="container">
+  <div class="row">
+    <div class="span2">
+      <div class="context-box">
+        <img src="http://www.nndb.com/people/453/000025378/bsaget2-sm.jpg" class="bob-saget" alt="Bob Saget" />
+        <span>bsaget</span>
+      </div>
+    </div>
+
+    <div class="span2 offset8">
+      <div class="rss-feed">
+        <span>News Feed</span>
+      </div>
+    </div>
+
   </div>
 
-  <div class="rss-feed">
-    <!-- rss feed image goes here -->
+  <div class="row">
+    <div class="button-links">
+      <ul>
+        <a href="#"><li class="active-button">News Feed</li></a>
+        <a href="#"><li class="inner-button">Picture Requests</li></a>
+        <a href="#"><li class="inner-button">Problems</li></a>
+        <a href="#"><li>Favorites</li></a>
+      </ul>
+    </div>
   </div>
+
+  <div class="row">
+    <div class="span7">
+      <div class="news-feed">
+        <ul class="news-feed-list">
+          <li>Crappy fake news story with some longer text</li>
+          <li>Crappy fake news story with some longer text</li>
+          <li>Crappy fake news story with some longer text</li>
+          <li>Crappy fake news story with some longer text</li>
+          <li>Crappy fake news story with some longer text</li>
+          <li>Crappy fake news story with some longer text</li>
+          <li>Crappy fake news story with some longer text</li>
+          <li>Crappy fake news story with some longer text</li>
+          <li>Crappy fake news story with some longer text</li>
+          <li>Crappy fake news story with some longer text</li>
+          <li>Crappy fake news story with some longer text</li>
+          <li>Crappy fake news story with some longer text</li>
+          <li>Crappy fake news story with some longer text</li>
+          <li>Crappy fake news story with some longer text</li>
+          <li>Crappy fake news story with some longer text</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="span5">
+      <div class="repositories">
+        <div class="repository-header">
+          <span class='pet-count'>Your pets (3)</span>
+          <button class="btn-small btn-success repository-button">New Repository</button>
+          <div class="clearfix"></div>
+        </div>
+        <div class="repository-subheader">
+          <input type="text" class="respository-search" placeholder="Find a repository">
+          <span>All Repositories</span>
+          <ul>
+            <li>Public</li>
+            <li>Private</li>
+            <li>Sources</li>
+            <li>Forks</li>
+          </ul>
+        </div>
+        <ul class="repository-list">
+          <li>bsaget/cat1</li>
+          <li>bsaget/cat2</li>
+          <li>bsaget/cat3</li>
+        </ul>
+      </div>
+    </div>
+
+
+
+  </div>
+
+    <%= render :partial => "layouts/footer" %>
 </div>
-
-<div class="button-links">
-  <ul>
-    <li>News Feed</li>
-    <li>Picture Requests</li>
-    <li>Problems</li>
-    <li>Favorites</li>
-  </ul>
-</div>
-
-<div class="main-auth-container">
-
-  <div class="news-feed">
-    <ul class="news-feed-list">
-    </ul>
-  </div>
-
-  <div class="repositories">
-    <span>Your pets</span>
-  </div>
-
-
-
-</div>
-
-  <%= render :partial => "layouts/footer" %>
