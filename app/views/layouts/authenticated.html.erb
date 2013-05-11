@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cathub</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+  <div class="wrapper">
+
+    <div class="auth-navigation-container">
+
+      <div class="container clearfix">
+
+        <div class="logo-container">
+          <img src="http://www.clker.com/cliparts/2/i/V/5/E/m/cat-outline-th.png" class="auth-logo" alt="logo" />
+        </div>
+
+        <div class="notification-container">
+          <span class="notification-dot">.</span>
+        </div>
+
+        <div class="searchbar-links">
+          <input class="search-input" type="text" placeholder="Search or type a command"/>
+          <ul class="auth-nav-list">
+            <li><a href='#'>Explore</a></li>
+            <li><a href='#'>Features</a></li>
+            <li><a href='#'>Blog</a></li>
+            <li><a href='#'>Help</a></li>
+          </ul>
+
+        </div>
+
+        <div class="right-links-container">
+          <!-- user image goes here -->
+          <span>Username</span>
+          <!-- image goes here -->
+          <!-- image goes here -->
+          <!-- image goes here -->
+        </div>
+
+      </div>
+      <%= yield %>
+
+    </div>
+
+  </div>
+</body>
+</html>
