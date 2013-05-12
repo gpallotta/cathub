@@ -54,7 +54,9 @@
 
 .auth-nav-list {
   display: inline-block;
+  margin-left: 10px;
   li {
+    color: #333333;
     display: inline-block;
   }
 }
@@ -62,6 +64,9 @@
   .right-links-list {
     float: right;
     margin-top: 10px;
+    .user-image {
+      margin-right: 0;
+    }
     li {
       margin-right: 10px;
       display: inline-block;

@@ -1,18 +1,46 @@
-.context-box {
-  background-color: #EEEEEE;
-  border-radius: 3px;
-  padding: 5px;
-  margin-top: 20px;
+.user-button-wrapper {
   margin-left: 10px;
+  .dropdown-toggle {
+    padding: 8px 20px;
+    margin-top: 15px;
+  }
 }
+
 
 .rss-feed {
   border: 1px solid #EEEEEE;
   float: right;
-  width: 80px;
+  width: 90px;
   margin-top: 20px;
   margin-right: 10px;
   padding: 3px;
+  color: #4183c4;
+  font-size: 12px;
+  .icon-align-justify {
+    margin-bottom: 2px;
+    margin-right: 4px;
+  }
+}
+
+.horizontal-buttons {
+  width: 96%;
+  margin-top: 10px;
+  margin-left: 30px;
+  font-size: 12px;
+  > .btn {
+    margin-right: -2px;
+    font-size: 12px;
+    padding: 8px;
+    width: 25%;
+    color: #777;
+    font-family: helvetica;
+    font-weight: bold;
+  }
+  > .active-btn {
+    color: black;
+    border-bottom: 2px solid orange;
+    padding-bottom: 6px;
+  }
 }
 
 .button-links {
@@ -41,25 +69,29 @@
 }
 
 .news-feed {
-  margin-left: 15px;
+  margin-left: 0;
   margin-bottom: 30px;
   .news-feed-list {
+    margin-left: 15px;
     li {
       font-size: 13px;
       color: #666666;
-      padding: 10px;
+      padding: 10px 0;
       border-bottom: 1px solid #F1F1F1;
+      .icon-random {
+        margin-right: 12px;
+      }
     }
   }
 }
 
 .repositories {
-  margin: 5px 30px;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 10px;
   overflow: auto;
   border: 1px solid #DDDDDD;
   border-radius: 5px;
-  margin-top: 10px;
-  margin-right: 5px;
   .repository-header {
     background-color: #EFEFEF;
     .pet-count {
@@ -112,7 +144,7 @@
   color: #555;
   background-color: #eaeaea;
   width: 95%;
-  margin-left: 40px;
+  margin-left: 10px;
   margin-bottom: 30px;
   border-radius: 5px;
   padding: 5px;
