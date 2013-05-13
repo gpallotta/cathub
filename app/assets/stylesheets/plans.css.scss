@@ -1,0 +1,166 @@
+$plan-bottom-border: 1px solid rgba(255,255,255,0.6);
+
+.plan-heading {
+  h2 {
+    font-weight: 400;
+    font-family: helvetica;
+    font-size: 30px;
+    color: #495961;
+    margin-bottom: 0;
+  }
+  p {
+    margin-top: 0;
+  }
+}
+
+.upgrade-bar {
+  background-color: #F4F4F4;
+  margin: 0 3px;
+  .price {
+    padding: 10px;
+    margin: 10px;
+    margin-left: 0;
+    float: left;
+    background-color: white;
+  }
+  .upgrade-downgrade {
+    margin-top: 15px;
+    .upgrade-text {
+      font-size: 16px;
+      font-weight: bold;
+    }
+  }
+  .span4 {
+    margin-left: 200px;
+    .upgrade-button-wrapper {
+      margin-top: 17px;
+      .upgrade-button {
+        font-size: 13px;
+        border-radius: 5px;
+        text-align: center;
+        float: right;
+        display: inline-block;
+        padding: 5px;
+      }
+    }
+  }
+}
+
+.personal-plan-row {
+  margin-top: 20px;
+  .personal-plan-box {
+    border-radius: 6px;
+    background-image: linear-gradient(#eaf5fa, #c5e8f1);;
+    padding-bottom: 10px;
+    .name-cost-wrapper {
+      padding: 10px;
+      border-bottom: $plan-bottom-border;
+      .plan-name {
+        font-size: 20px;
+        font-weight: bold;
+        color: #1a526b;
+        display: inline-block;
+      }
+      .plan-cost {
+        display: inline-block;
+        float: right;
+      }
+    }
+    .repository-number {
+      border-radius: 5px;
+      background-color: #EBF6FA;
+      margin: 10px;
+      padding: 5px;
+    }
+    .top-benefit {
+      border-bottom: $plan-bottom-border;
+    }
+    .benefits {
+      color: #333333;
+      margin: 10px;
+    }
+  }
+}
+
+.business-plan-text {
+  font-weight: bold;
+  font-family: helvetica;
+  color: #333333;
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.business-plan-box {
+  background-image: linear-gradient(#f1fef4, #c4e6bd);;
+  border-radius: 6px;
+  .name-cost-wrapper {
+    padding: 10px;
+    border-bottom: $plan-bottom-border;
+    .plan-name {
+      padding: 5px;
+      font-family: helvetica;
+      font-size: 20px;
+      font-weight: bold;
+      color: #1f5714;
+      display: inline-block;
+    }
+    .plan-cost {
+      display: inline-block;
+      float: right;
+    }
+  }
+  .repository-number {
+    border-radius: 5px;
+    background-color: #F0FAEF;
+    margin: 10px;
+    padding: 5px;
+  }
+  .top-benefit {
+    border-bottom: $plan-bottom-border;
+  }
+  .benefits {
+    text-shadow: 1px 1px 0 rgba(255,255,255,0.8);
+    color: #333333;
+    margin: 10px;
+    font-size: 13px;
+  }
+  .organization-button {
+    background-color: #6FC052;
+    color: white;
+    width: 90%;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 5px;
+  }
+}
+
+.enterprise-row {
+  .span5 {
+    margin-left: 225px;
+  }
+  background-image: linear-gradient(#616161, #0f0f0f);
+  margin: 10px 0;
+  border-radius: 5px;
+  .enterprise-text {
+    padding: 10px 0;
+    .big-enterprise {
+      color: #FFFFFF;
+      font-weight: 400;
+      font-size: 16px;
+    }
+    .small-enterprise {
+      font-size: 12px;
+      color: #999999;
+    }
+  }
+  .enterprise-button {
+    float: right;
+    margin-top: 12px;
+    background-color: #ECECEC;
+    padding: 5px 20px;
+    font-size: 13px;
+    color: #333333;
+  }
+}

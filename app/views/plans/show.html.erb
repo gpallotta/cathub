@@ -1,2 +1,93 @@
-<h1>Plans#show</h1>
-<p>Find me in app/views/plans/show.html.erb</p>
+<div class="container">
+
+  <div class="row">
+    <div class="span4 plan-heading">
+      <h2>Plans &amp; Pricing</h2>
+      <p>Take a look at our plan options</p>
+    </div>
+  </div>
+
+  <div class="row upgrade-bar">
+    <div class="span5">
+      <div class="price">
+        $100/mo
+      </div>
+      <div class="upgrade-downgrade">
+        <span class="upgrade-text">Upgrade or downgrade your account</span>
+        <p>You're on the give us money plan</p>
+      </div>
+    </div>
+
+    <div class="span4 offset2">
+      <div class="upgrade-button-wrapper">
+        <button class="upgrade-button">Upgrade or downgrade your account</button>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="row personal-plan-row">
+    <% 3.times do %>
+      <div class="span4">
+        <div class="personal-plan-box">
+
+          <div class="name-cost-wrapper">
+            <div class="plan-name">Give us money</div>
+            <div class="plan-cost">$/mo</div>
+          </div>
+
+          <div class="repository-number">137 private repositories</div>
+          <div class="benefits top-benefit">Unlimited private repositories</div>
+          <div class="benefits">Unlimited collaborators</div>
+
+        </div>
+      </div>
+    <% end %>
+  </div>
+
+  <div class="row">
+    <div class="business-plan-text span2">
+      Business Plans
+    </div>
+  </div>
+
+  <div class="row">
+    <% 4.times do %>
+      <div class="span3">
+        <div class="business-plan-box">
+
+          <div class="name-cost-wrapper">
+            <div class="plan-name">Business</div>
+            <div class="plan-cost">$10000/mo</div>
+          </div>
+
+          <div class="repository-number">137 private repositories</div>
+          <div class="benefits top-benefit">Unlimited teams</div>
+          <div class="benefits">Unlimited collaborators</div>
+          <div class="org-button-wrapper">
+            <button class="organization-button">Create an organization</button>
+          </div>
+
+        </div>
+      </div>
+
+    <% end %>
+  </div>
+
+  <div class="row enterprise-row">
+
+    <div class="span4 enterprise-text">
+      <div class="big-enterprise">CatHub Enterprise</div>
+      <div class="small-enterprise">Find out all the exciting ways you can give us money</div>
+    </div>
+
+    <div class="span5 offset2">
+      <button class="enterprise-button">
+        Learn more about CatHub Enterprise
+        <i class="icon-arrow-right"></i>
+      </button>
+    </div>
+
+  </div>
+
+</div>
