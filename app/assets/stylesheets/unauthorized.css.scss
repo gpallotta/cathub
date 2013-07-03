@@ -18,6 +18,7 @@
 }
 
 .mini-slogan {
+  margin-top: 15px;
   color: #888888;
   width: 575px;
   line-height: 1.5;
@@ -74,6 +75,7 @@
 .ads-list {
   margin: 0;
   padding: 0;
+  text-align: center;
   li {
     margin: 0 51px;
     display: inline-block;
@@ -94,16 +96,18 @@
 
 .large-ad-text {
   font-size: 24px;
-  width: 235px;
+  // width: 235px;
   color: #2A2A2A;
   margin-left: 10px;
   margin-top: 5px;
   margin-bottom: 2px;
+  line-height: 1em;
 }
 
 .small-ad-text {
-  margin-left: 20px;
-  margin-top: 0;
+  text-align: center;
+  // margin-left: 20px;
+  margin-top: 5px;
   color: #5A5A5A;
   font-size: 15px;
 }
